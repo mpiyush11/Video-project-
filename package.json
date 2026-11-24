@@ -1,0 +1,37 @@
+{
+  "name": "video-project-",
+  "version": "1.0.0",
+  "description": "Cinematic 2.5D Retro-Bollywood lyrical reel in Remotion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "remotion studio src/index.ts",
+    "render": "node scripts/remotion.mjs render src/index.ts KishoreRetroBollywoodReel kishore_10on10_reel.mp4",
+    "typecheck": "tsc --noEmit",
+    "compositions": "node scripts/remotion.mjs compositions src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpiyush11/Video-project-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mpiyush11/Video-project-/issues"
+  },
+  "homepage": "https://github.com/mpiyush11/Video-project-#readme",
+  "dependencies": {
+    "@remotion/cli": "^4.0.546",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.546"
+  },
+  "devDependencies": {
+    "@sparticuz/chromium": "^153.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "ffprobe-static": "^3.1.0",
+    "typescript": "^7.0.2"
+  }
+}
