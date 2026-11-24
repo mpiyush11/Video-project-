@@ -1,0 +1,5 @@
+/* Runtime-safe CSS import of the self-hosted Google Fonts families. */
+@import './googleFonts.css';
+
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #0B132B; }
